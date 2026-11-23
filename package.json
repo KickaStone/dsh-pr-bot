@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Local GitHub PR review bot powered by DeepSeek Harness",
   "private": false,
+  "license": "MIT",
   "type": "module",
   "bin": {
     "dsh-pr-bot": "./scripts/dsh-pr-bot.mjs",

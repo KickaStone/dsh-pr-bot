@@ -1,5 +1,7 @@
 # dsh-pr-bot
 
+English | [中文](README.zh.md)
+
 A local GitHub pull-request review bot powered by
 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (DSH).
 
@@ -222,3 +224,7 @@ scripts/
 examples/
   config.json  env.example  dsh-pr-bot.service  dsh-pr-bot.timer
 ```
+
+## License
+
+[MIT](LICENSE)
