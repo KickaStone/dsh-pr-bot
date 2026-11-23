@@ -1,0 +1,9 @@
+[Unit]
+Description=DSH PR review bot
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/Projects/dsh-pr-bot
+Environment=PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin
+EnvironmentFile=%h/.config/dsh-pr-bot/env
+ExecStart=/usr/bin/node %h/Projects/dsh-pr-bot/scripts/dsh-pr-bot.mjs --once

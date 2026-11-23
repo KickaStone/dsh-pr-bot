@@ -1,0 +1,10 @@
+{
+  "repos": [
+    { "repo": "owner/name", "dir": "/path/to/checkout", "base": "main" }
+  ],
+  "intervalSeconds": 120,
+  "maxReviewsPerRun": 2,
+  "onMerge": "comment",
+  "model": "deepseek-flash",
+  "reasoningEffort": "high"
+}
